@@ -1,3 +1,10 @@
+API_KEY = 'demo'
+r = requests.get('https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=' + API_KEY)
+if (r.status_code == 200):
+  print r.json()
+
+
+
 import requests
 
 API_ROOT = 'https://www.alphavantage.co/'
@@ -15,7 +22,6 @@ datatype = '=json'
 apikey = ''
 
 def main_script():
+    print(main_script)
 
-if __name__ == '__main__':
-    while True:
-        main_script()
+main_script()
