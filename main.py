@@ -29,23 +29,4 @@ if (r.status_code == 200):
     result = r.json()
 dataForAllDays = result['Time Series (Daily)']
 dataForSingleDate = dataForAllDays['2017-10-30']
-<<<<<<< HEAD
 
-print (dataForSingleDate['1. open'])
-print (dataForSingleDate['2. high'])
-print (dataForSingleDate['3. low'])
-print (dataForSingleDate['4. close'])
-print (dataForSingleDate['5. volume'])
-||||||| merged common ancestors
-print dataForSingleDate['1. open']
-print dataForSingleDate['2. high']
-print dataForSingleDate['3. low']
-print dataForSingleDate['4. close']
-print dataForSingleDate['5. volume']
-=======
-print (dataForSingleDate['1. open'])
-print (dataForSingleDate['2. high'])
-print (dataForSingleDate['3. low'])
-print (dataForSingleDate['4. close'])
-print (dataForSingleDate['5. volume'])
->>>>>>> 350a3c1264ae389cc81e20c70571e2f93efe98d7
