@@ -1,4 +1,5 @@
 import requests
+import json
 
 API_ROOT = 'https://www.alphavantage.co/'
 
