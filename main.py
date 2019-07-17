@@ -8,6 +8,10 @@ function
 
 symbol
 
+output size
+
+datatype
+
 apikey
 
 
