@@ -4,15 +4,15 @@ API_ROOT = 'https://www.alphavantage.co/'
 
 API_LOCATION = 'query?'
 
-function
+function = 'TIME_SERIES_DAILY_ADJUSTED'
 
-symbol
+symbol = 'input'
 
-output size
+output_size = 'compact'
 
-datatype
+datatype = 'json'
 
-apikey
+apikey = ''
 
 
 if __name__ == '__main__':
