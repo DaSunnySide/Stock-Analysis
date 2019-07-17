@@ -1,4 +1,3 @@
-
 import requests
 
 API_ROOT = 'https://www.alphavantage.co/'
@@ -7,7 +6,7 @@ API_LOCATION = 'query?'
 
 function = '=TIME_SERIES_DAILY_ADJUSTED'
 
-symbol = '=input'
+symbol = input('Stock Symbol: ')
 
 output_size = '=compact'
 
@@ -19,10 +18,3 @@ def main_script():
     print(main_script)
 
 main_script()
-
-
-API_KEY = 'demo'
-r = requests.get('https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=' + API_KEY)
-if (r.status_code == 200):
-  print r.json()
-
