@@ -1,6 +1,6 @@
 import requests
 
-API_ROOT = '  '
+API_ROOT = 'https://www.alphavantage.co/query?'
 
 
 
