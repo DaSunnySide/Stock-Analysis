@@ -29,8 +29,8 @@ if (r.status_code == 200):
     result = r.json()
 dataForAllDays = result['Time Series (Daily)']
 dataForSingleDate = dataForAllDays['2017-10-30']
-print dataForSingleDate['1. open']
-print dataForSingleDate['2. high']
-print dataForSingleDate['3. low']
-print dataForSingleDate['4. close']
-print dataForSingleDate['5. volume']
+print (dataForSingleDate['1. open'])
+print (dataForSingleDate['2. high'])
+print (dataForSingleDate['3. low'])
+print (dataForSingleDate['4. close'])
+print (dataForSingleDate['5. volume'])
