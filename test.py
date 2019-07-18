@@ -3,4 +3,3 @@ from main import *
 
 print(symbol)
 
-does this go through?
