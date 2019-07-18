@@ -1,4 +1,4 @@
-# Mugger-Chilly
+# Stock Analysis 
 Implementation and Modification of a Simple Boilerplate for Web Scraping
 
 
