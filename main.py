@@ -3,8 +3,8 @@ import json
 
 
 API_ROOT = 'https://www.alphavantage.co/'
-
 API_LOCATION = 'query?'
+API_KEY = 'VW506K51LFXGUT1C'
 
 function = '=TIME_SERIES_DAILY_ADJUSTED'
 
@@ -21,7 +21,6 @@ def main_script():
 
 main_script()
 
-API_KEY = 'VW506K51LFXGUT1C'
 r = requests.get('https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=' + API_KEY)
 if (r.status_code == 200):
     print(r)
