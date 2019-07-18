@@ -14,19 +14,19 @@ output_size = '=compact'
 
 datatype = '=json'
 
-apikey = ''
+apikey = 'VW506K51LFXGUT1C'
 
 def main_script():
     print(main_script)
 
 main_script()
 
-API_KEY = 'YOUR_API_KEY'
+API_KEY = 'VW506K51LFXGUT1C'
 r = requests.get('https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=' + API_KEY)
 if (r.status_code == 200):
     print(r)
 
     result = r.json()
 dataForAllDays = result['Time Series (Daily)']
-dataForSingleDate = dataForAllDays['2017-10-30']
+
 
