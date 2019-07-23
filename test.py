@@ -1,6 +1,7 @@
 import requests
 import json
 from tkinter import *
+import main
 
 API_KEY = "VW506K51LFXGUT1C"
 r = requests.get("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=" + API_KEY)
