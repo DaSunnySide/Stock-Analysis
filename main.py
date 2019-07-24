@@ -1,11 +1,13 @@
 import requests
 import json
+from front import *
 
 
 
 API_ROOT = 'https://www.alphavantage.co/'
 API_LOCATION = 'query?'
 API_KEY = 'VW506K51LFXGUT1C'
+API_QUERY = 'query?function=' + funct + '&symbol=' + symbol + '&' + 'apikey=' + API_KEY
 
 function = '=TIME_SERIES_DAILY_ADJUSTED'
 

@@ -18,7 +18,7 @@ symbol.grid(row=2, column=2)
 funct = input("Enter the function (TIME_SERIES_DAILY, TIME_SERIES_INTRADAY, \nTIME_SERIES_DAILY_ADJUSTED, TIME_SERIES_WEEKLY, TIME_SERIES_WEEKLY_ADJUSTED, \nTIME_SERIES_MONTHLY, TIME_SERIES_MONTHLY_ADJUSTED)")
 
 
-API_QUERY = 'query?function=' + funct + '&symbol=' + symbol + '&' + 'apikey=' + API_KEY
+
 
 r = requests.get(API_ROOT + API_QUERY + API_KEY)
 res = r.json()
