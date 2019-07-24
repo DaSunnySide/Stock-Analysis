@@ -1,7 +1,7 @@
 import requests
 import json
 from tkinter import *
-
+from main import *
 
 root = Tk()
 root.title('Stock Analysis')
@@ -16,8 +16,8 @@ buttonCommit.grid(row=1, column=1)
 symbol = buttonCommit
 symbol.grid(row=2, column=2)
 funct = input("Enter the function (TIME_SERIES_DAILY, TIME_SERIES_INTRADAY, \nTIME_SERIES_DAILY_ADJUSTED, TIME_SERIES_WEEKLY, TIME_SERIES_WEEKLY_ADJUSTED, \nTIME_SERIES_MONTHLY, TIME_SERIES_MONTHLY_ADJUSTED)")
-API_KEY = "VW506K51LFXGUT1C"
-API_ROOT = 'https://www.alphavantage.co/'
+
+
 API_QUERY = 'query?function=' + funct + '&symbol=' + symbol + '&' + 'apikey=' + API_KEY
 
 r = requests.get(API_ROOT + API_QUERY + API_KEY)
