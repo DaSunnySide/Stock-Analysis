@@ -4,6 +4,7 @@ from tkinter import *
 
 
 root = Tk()
+root.title('Stock Analysis')
 title = Label(root, text="Stock Symbol", bg="gray", fg="white")
 title.grid(row=1)
 textBox = Text(root, height=2, width=30)
