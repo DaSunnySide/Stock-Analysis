@@ -5,7 +5,7 @@ from tkinter import *
 
 root = Tk()
 title = Label(root, text="Stock Symbol", bg="gray", fg="white")
-title.grid(row=0)
+title.grid(row=1)
 textBox = Text(root, height=2, width=30)
 textBox.grid(row=1, column=1)
 buttonCommit = Button(root, height=1, width=10, text="Commit",
