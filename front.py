@@ -34,8 +34,8 @@ formatted = json.dumps(res, indent=4, sort_keys=True)
 
 info = json.loads(formatted)
 def retrieve_input():
-    inputValue=textBox.get("1.0", "end")
-    print(inputValue)
+    input =textBox.get("1.0", "end")
+    print(input)
 
 
 print(info)
